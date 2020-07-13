@@ -1,5 +1,5 @@
 FROM node:12
-WORKDIR /src/
+WORKDIR /
 COPY package*.json ./
 RUN npm ci
 COPY . .
