@@ -8,27 +8,27 @@ const measureDeviceHost = 'http://192.168.178.62/current?adc=';
 const channels = {
     0: {
         name: 'Treppenhaus Keller',
-        offset: -14
+        offset: -10
     },
     1: {
         name: 'L1',
-        offset: -14
+        offset: -10
     },
     2: {
         name: 'Heizung',
-        offset: -14
+        offset: -10
     },
     3: {
         name: 'L3',
-        offset: -14
+        offset: -10
     },
     4: {
         name: 'L2',
-        offset: -14
+        offset: -10
     },
     5: {
         name: 'Server + WAN',
-        offset: -14
+        offset: -10
     }
 };
 
