@@ -4,7 +4,7 @@ const got = require('got');
 const port = 3030, host = '127.0.0.1';
 const vRef = 230; // Volt
 
-const measureDeviceHost = 'http://192.168.178.62/current?adc=';
+const measureDeviceHost = 'http://192.168.178.63/current?adc=';
 const channels = {
     0: {
         name: 'Treppenhaus Keller',
